@@ -1,0 +1,1 @@
+cmd_/home/handsome/Project_2B/traverse.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/handsome/Project_2B/traverse.ko /home/handsome/Project_2B/traverse.o /home/handsome/Project_2B/traverse.mod.o

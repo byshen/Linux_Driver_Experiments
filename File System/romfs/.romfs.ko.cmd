@@ -1,0 +1,1 @@
+cmd_/home/handsome/Project4/romfs/romfs.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/handsome/Project4/romfs/romfs.ko /home/handsome/Project4/romfs/romfs.o /home/handsome/Project4/romfs/romfs.mod.o

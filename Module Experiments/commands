@@ -1,0 +1,11 @@
+make
+
+insmod module_2A_1.ko
+dmesg
+
+insmod module_2A_2.ko test=1,2,3
+dmesg
+
+insmod module_2A_3.ko
+cat /proc/hello_proc
+
